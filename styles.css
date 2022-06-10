@@ -61,7 +61,22 @@
     font-weight: 600;
 }
 
-.banner-div-img
+.banner-div-img img{
+ 
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    max-width: 100%; 
+    height: auto    
+}
+
+
+/*.banner-div-img
 {
     
     background-color: #fff;
@@ -70,9 +85,15 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: url(/assets/imgProgramin1.jpg);
+    border: 1px solid black;
     
 }
+*/
+
+/* .banner-div-img img{
+    display: block;
+    margin: 0 auto;
+} */
 
 header
 {
