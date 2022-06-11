@@ -332,6 +332,16 @@ header ul li a
     text-align: center;
 }
 
+.my-contacs
+{
+    text-decoration: none ;
+}
+
+.my-contacs a:link, a:visited, a:active 
+{
+        text-decoration:none;
+}
+
 .my-contacs img
 {
     width: 80px;
@@ -339,10 +349,11 @@ header ul li a
 
 }
 
-.my-contacs h3
+.my-contacs a h3
 {
     text-align: center;
     margin-top: 10px;
+    color: #111;
 }
 
 footer
