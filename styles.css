@@ -126,21 +126,16 @@
     align-items: center;
 }
 
-header ul 
+.container-items
 {
     position: relative;
     display: flex;
 }
 
-header ul li
+.container-items a
 {
     position: relative;
     list-style: none;
-}
-
-header ul li a
-{
-    position: relative;
     display: inline-block;
     margin: 0 15px;
     color:#fff;
@@ -377,8 +372,18 @@ footer h2
 
 
 @media screen and (max-width: 900px) {
-    
-.header
+
+.menu-btn, .menu-container
+{
+    display: none;
+}
+
+/*  codigo comentado
+    -header movil-
+    lo pause para informarme mas sobre los nav responsive
+    y el css como tal
+    solucion rapida: centrar el logo y ocultar la nav.  */ 
+/* .header
     {
         position: fixed;
         top: 0;
@@ -395,6 +400,7 @@ footer h2
     margin-right: auto;
     max-width: 1200px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .none
@@ -402,10 +408,38 @@ footer h2
     display: none;
 }
 
+.menu-container 
+{
+    display: none;
+    background-color: #111;
+    width: 100%;
+}
+
+.abierto 
+{
+    display: inline;
+}
+
+.container-items
+{
+
+    position: relative;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.container-items a
+{
+    padding: 10px;
+}
+
 .menu-btn
 {
     display: inline;
 }
+
+
     
 .menu-btn img{
         width: 30px;
@@ -415,7 +449,7 @@ footer h2
 {
     display: none;
 }
-    
+     */
     .banner
 {
     padding: 100px;
